@@ -8,7 +8,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #031321;
-    font-family: consolas;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
     position: relative;
@@ -79,4 +79,30 @@ a:hover span:nth-child(4) {
     bottom: 100%;
     transition: 0.5s;
     transition-delay: 0.75s;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1f1c32;
+}
+div {
+    position: relative;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #2196f3;
+}
+div span {
+    font-size: 22vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+div span:not(:first-child) {
+    margin-left: -0.23em;
 }
