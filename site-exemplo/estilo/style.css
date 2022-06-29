@@ -6,17 +6,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 8vh;
     background: #031321;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
     position: relative;
-    display: inline-block;
+    bottom: 170px;
+    display: flex;
     padding: 15px 30px;
     color: #2196f3;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 20px;
     text-decoration: none;
     font-size: 24px;
     overflow: hidden;
@@ -32,6 +33,7 @@ a:hover {
 a span {
     position: absolute;
     display: block;
+
 }
 a span:nth-child(1) {
     top: 0;
@@ -92,14 +94,14 @@ body {
 }
 div {
     position: relative;
-    top: 80px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #2196f3;
 }
 div span {
-    font-size: 22vw;
+    font-size: 30vw;
     font-weight: 800;
     text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
 }
